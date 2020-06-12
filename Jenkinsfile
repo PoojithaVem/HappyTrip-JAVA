@@ -4,7 +4,7 @@ node {
   sh '''
           cd happytrip-code
           mvn clean install
-          ${mvnHome}/bin/mvn -B verify
+          mvn -B verify
     '''
 
 }
