@@ -1,6 +1,6 @@
 node{
     stage('SCM Checkout'){
-      git https://github.com/PoojithaVem/HappyTrip-JAVA
+      git 'https://github.com/PoojithaVem/HappyTrip-JAVA'
     }
     
     stage('Compile checkout'){
